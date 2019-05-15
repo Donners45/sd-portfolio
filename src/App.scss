@@ -9,8 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fff;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -30,4 +29,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+//custom body wrapper for app content
+//not the DOM's body.
+.body {
+  height:100vh;
 }

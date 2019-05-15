@@ -1,0 +1,21 @@
+
+.bgWrapper {
+    background: url(./bridge-bud-01.JPG) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    overflow: auto;
+   
+    .textWrapper {
+        position: relative;
+        top:25%;
+        background-color: #ffffffa1;
+        overflow: hidden;
+
+        h1 {
+            font-size: 5em;
+        }
+    }
+}
