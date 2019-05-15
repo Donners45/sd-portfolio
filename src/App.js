@@ -12,9 +12,9 @@ class App extends Component {
         <Header text="Sean Donnelly">
         </Header>
         <header className="App-header"></header>
-        <div className="body">
+        {/* <div className="body">
 
-        </div>
+        </div> */}
       </div>
     );
   }
