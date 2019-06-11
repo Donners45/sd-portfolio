@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.scss';
 import Header from './components/header/header';
 import Navigation from './components/navigation/navigation';
+import Home from './components/home/home'
 
 class App extends Component {
   render() {
@@ -11,10 +12,9 @@ class App extends Component {
         </Navigation>
         <Header text="Sean Donnelly">
         </Header>
-        <header className="App-header"></header>
-        {/* <div className="body">
-
-        </div> */}
+        <div className="body">
+          <Home></Home>
+        </div>
       </div>
     );
   }

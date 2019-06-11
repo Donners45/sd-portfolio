@@ -6,7 +6,7 @@ function Header(props) {
     <div className={styles.bgWrapper}>
       <div className={styles.textWrapper}>
         <h1>{props.text}</h1>
-        <h3>[<a href="#soft">Software</a>] / [<a href="#photo">Photography</a>]</h3>
+        <h3>[<a href="#soft">Software</a>] & [<a href="#photo">Photography</a>]</h3>
       </div>
     </div>
   );
