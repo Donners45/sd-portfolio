@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-// .App-logo {
-//   animation: App-logo-spin infinite 20s linear;
-//   height: 40vmin;
-//   pointer-events: none;
-// }
-
 .App-header {
   background-color: #fff;
   display: flex;
@@ -22,19 +16,10 @@
   color: #61dafb;
 }
 
-// @keyframes App-logo-spin {
-//   from {
-//     transform: rotate(0deg);
-//   }
-//   to {
-//     transform: rotate(360deg);
-//   }
-// }
-
 //custom body wrapper for app content
 //not the DOM's body.
 .body {
-  float: left;
   text-align: left;
-  padding: 2em;
+  padding: 2em 0;
+  margin: 0 0 2em 0;
 }
