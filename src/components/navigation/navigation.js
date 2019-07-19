@@ -1,11 +1,14 @@
-import React from "react";
-import Navbar from "react-bootstrap/Navbar"
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar'
 import styles from './navigation.module.scss'
+import { Link } from 'react-router-dom'
 
-function Navigation(props) {
+function Navigation() {
   return (
       <Navbar bg="dark" fixed="top" variant="dark">
-        <Navbar.Brand href="#home" className={styles.logo}>SD</Navbar.Brand>
+        <Navbar.Brand className={styles.logo}>
+          <Link to="/">SD</Link>
+        </Navbar.Brand>
       </Navbar>
   );
 }
