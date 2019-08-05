@@ -11,8 +11,7 @@ class App extends Component {
       <Router>
         <div className="App">
           <Navigation></Navigation>
-          <Header text="Lorum Ipsum"></Header>
-
+          
           <div className="body">
           
             <Route path="/" exact component={Home} />

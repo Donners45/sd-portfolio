@@ -1,14 +1,17 @@
 import React from 'react';
-import PageBrake from '../shared/pageBrake/pageBrake'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Header from '../header/header'
 
 // import styles from './home.module.scss';
+//import PageBrake from '../shared/pageBrake/pageBrake'
 
 function Home() {
 
     return(
+        <>
+        <Header text="Lorum Ipsum"></Header>
         <Container>
             <Row>   
                 <Col>
@@ -40,6 +43,7 @@ function Home() {
                 </Col>
             </Row>
         </Container>
+        </>
     );
 }
 
